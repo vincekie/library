@@ -1,0 +1,17 @@
+{
+  "name": "Transactions",
+  "icon": "menu-icon tf-icons bx bx-transfer",
+  "slug": "issue",
+  "submenu": [
+    {
+      "url": "/issue-borrow-book",
+      "name": "Issue Book Request",
+      "slug": "issue-borrow-book"
+    },
+    {
+      "url": "/issue-return-book",
+      "name": "Issue Return Request",
+      "slug": "issue-return-book"
+    }
+  ]
+}

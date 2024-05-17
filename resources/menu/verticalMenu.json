@@ -1,0 +1,34 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "menuHeader": "Books"
+    },
+    {
+      "url": "/allbooks",
+      "name": "All Books",
+      "icon": "menu-icon tf-icons bx bx bx-book-add",
+      "slug": "books-basic"
+    },
+    {
+      "menuHeader": "Users",
+      "roles": [
+        "Admin"
+      ]
+    },
+    {
+      "url": "/adduser",
+      "name": "Manage Users",
+      "icon": "menu-icon tf-icons bx bx bx-user-plus",
+      "slug": "users-basic",
+      "roles": [
+        "Admin"
+      ]
+    }
+  ]
+}
